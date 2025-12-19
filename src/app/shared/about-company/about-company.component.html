@@ -1,0 +1,12 @@
+<section class="container">
+  <h2>{{ headerTitle }}</h2>
+  <div class="cards-container">
+    <app-card
+      *ngFor="let card of cards"
+      [textTitle]="card.title"
+      [textParagraph]="card.description"
+      [iconName]="card.image"
+    ></app-card>
+  </div>
+  <app-images></app-images>
+</section>
