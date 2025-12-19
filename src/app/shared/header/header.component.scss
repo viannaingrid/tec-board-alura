@@ -1,3 +1,30 @@
-.header-container{
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 
+  .nav-container {
+    width: 20vw;
+    align-items: center;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+;
+      li, a{
+        font-size: 1.2rem;
+        list-style: none;
+        text-decoration: none;
+
+        a:hover {
+          font-size: 1.3rem;
+          text-shadow: 5px 8px 5px #b9b4b4;
+        }
+      }
+    }
+  }
 }
+
